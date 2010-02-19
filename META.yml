@@ -1,0 +1,26 @@
+---
+abstract: 'Test::Exception simplified'
+author:
+  - 'Chad Granum <exodist7@gmail.com>'
+build_requires:
+  Object::Quick: 0.012
+  Test::Simple: 0.88
+configure_requires:
+  Module::Build: 0.36
+generated_by: 'Module::Build version 0.3603'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Test-Exception-LessClever
+provides:
+  Test::Exception::LessClever:
+    file: lib/Test/Exception/LessClever.pm
+    version: 0.001
+requires:
+  Carp: 0
+  Exporter: 0
+  Test::Builder: 0
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.001
