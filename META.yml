@@ -16,11 +16,11 @@ name: Test-Exception-LessClever
 provides:
   Test::Exception::LessClever:
     file: lib/Test/Exception/LessClever.pm
-    version: 0.002
+    version: 0.003
 requires:
   Carp: 0
   Exporter: 0
   Test::Builder: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.002
+version: 0.003
