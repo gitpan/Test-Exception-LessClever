@@ -1,6 +1,6 @@
 Build.PL
 lib/Test/Exception/LessClever.pm
 MANIFEST			This list of files
-META.yml
 README
 t/tests.t
+META.yml
