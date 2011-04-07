@@ -3,11 +3,12 @@ abstract: 'Test::Exception simplified'
 author:
   - 'Chad Granum <exodist7@gmail.com>'
 build_requires:
-  Object::Quick: 0.012
+  Mock::Quick: 1.100
   Test::Simple: 0.88
 configure_requires:
-  Module::Build: 0.36
-generated_by: 'Module::Build version 0.3607'
+  Module::Build: 0.38
+dynamic_config: 1
+generated_by: 'Module::Build version 0.38, CPAN::Meta::Converter version 2.110440'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -16,11 +17,11 @@ name: Test-Exception-LessClever
 provides:
   Test::Exception::LessClever:
     file: lib/Test/Exception/LessClever.pm
-    version: 0.005
+    version: 0.006
 requires:
   Carp: 0
   Exporter: 0
   Test::Builder: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.005
+version: 0.006
